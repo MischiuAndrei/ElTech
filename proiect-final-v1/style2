@@ -1,0 +1,209 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url('../proiect-final-v1/images/imagine.jpeg'); /* Asigură-te că această cale este corectă */
+    background-size: cover; /* Face imaginea să acopere întregul ecran */
+    background-position: center; /* Plasează imaginea în centrul paginii */
+    background-repeat: no-repeat; /* Previne repetarea imaginii */
+}
+/* Stil pentru navbar */
+.navbar {
+    background-color: #3237c8; /* Culoarea violet pentru navbar */
+    display: flex; /* Flexbox pentru a alinia butonul */
+    justify-content: flex-start; /* Alinierea butonului la stânga */
+    width: 100%; /* Ocupă toată lățimea paginii */
+    padding: 10px 0; /* Spațiu interior */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Umbră pentru un efect de adâncime */
+}
+
+/* Stil pentru butonul Home */
+.home-button {
+    background-color: #ffffff; /* Fundal alb pentru buton */
+    color: #a076db; /* Text violet pentru contrast */
+    border: none; /* Elimină bordura implicită */
+    padding: 2px 2px; /* Spațiu interior pentru buton */
+    font-size: 1.2em; /* Dimensiunea textului */
+    cursor: pointer; /* Cursor de tip pointer pentru interactivitate */
+    transition: background-color 0.3s; /* Tranziție pentru fundal */
+    width: 99%; /* Lățimea butonului să fie 100% */
+    image-rendering: auto;
+}
+/* Stil pentru titlurile de secțiuni */
+.title-laptopuri, .title-camere, .title-accesori {
+    display: inline-block;
+    background-color: rgba(44, 10, 77, 0.5); /* Fundal similar cu laptopurile */
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-left: 10px;
+    font-size: 1.8em;
+    position: relative;
+    top: -10px;
+}
+
+/* Container pentru ofertele de accesorii */
+.oferte-accesorii {
+    display: flex;
+    justify-content: space-between; /* Spațiu egal între chenare */
+    margin-top: 5px; /* Distanță între secțiuni */
+    padding: 10px;
+}
+
+/* Stil pentru fiecare accesoriu */
+.accesoriu {
+    background-color: rgba(203, 205, 251, 0.8); /* Fundal semi-transparent */
+    border-radius: 15px;
+    padding: 10px; /* Ajustat pentru a se potrivi cu laptopurile */
+    margin: 5px; /* Ajustat pentru a se potrivi cu laptopurile */
+    text-align: center;
+    width: calc(30%); /* Ocupă 30% din lățime pentru a avea 3 chenare pe un rând */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Efect de hover pentru accesorii */
+.accesoriu:hover {
+    transform: scale(1.05); /* Mărește ușor chenarul */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Umbra mai pronunțată la hover */
+}
+
+/* Stil pentru imaginile din chenare */
+.accesoriu img {
+    width: 100%; /* Ajustat pentru a ocupa toată lățimea */
+    height: auto;
+    max-height: 150px; /* Limitează înălțimea imaginii */
+    border-radius: 15px 15px 0 0; /* Rotunjire la colțurile de sus */
+}
+
+/* Stil pentru titlul fiecărui accesoriu */
+.accesoriu h3 {
+    margin: 10px 0;
+    font-size: 1.8em; /* Dimensiune mai mare pentru titlu */
+    color: white; /* Culoare albă */
+}
+
+/* Stil pentru descrierea fiecărui accesoriu */
+.accesoriu p {
+    margin: 10px 0;
+    font-size: 1.1em;
+    color: white; /* Culoare albă */
+}
+
+/* Stil pentru secțiunea de oferte camere video */
+.oferte-camere-video {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #3237c8; /* Culoare violet */
+    color: white; /* Text alb */
+    width: 55%; /* Ocupă toată lățimea paginii */
+    padding: 20px 30px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between; /* Chenare pe orizontală */
+}
+
+/* Stil pentru fiecare camera */
+.camera {
+    background-color: rgba(203, 205, 251, 0.8); /* Fundal semi-transparent */
+    border-radius: 15px;
+    padding: 10px; /* Ajustat pentru a se potrivi cu laptopurile */
+    margin: 5px; /* Ajustat pentru a se potrivi cu laptopurile */
+    text-align: center;
+    width: calc(30%); /* Ocupă 30% din lățime pentru a avea 3 chenare pe un rând */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Efect de hover pentru camere video */
+.camera:hover {
+    transform: scale(1.05); /* Mărește chenarul la hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Umbra mai pronunțată la hover */
+}
+
+/* Stil pentru imaginile din chenare */
+.camera img {
+    width: 100%; /* Ajustat pentru a ocupa toată lățimea */
+    height: auto;
+    max-height: 150px; /* Limitează înălțimea imaginii */
+    border-radius: 15px 15px 0 0; /* Rotunjire la colțurile de sus */
+}
+
+/* Stil pentru titlul camerei */
+.camera h3 {
+    margin: 10px 0;
+    font-size: 1.8em; /* Dimensiune mai mare pentru titlu */
+    color: rgb(100, 11, 183);
+}
+
+/* Stil pentru specificațiile camerei */
+.camera p {
+    margin: 10px 0;
+    font-size: 1.1em;
+    color: white; /* Culoare albă */
+}
+/* Stil pentru footer */
+footer {
+    background-color:#3287c8; ; /* Culoare închisă pentru fundal */
+    color: white; /* Text alb */
+    padding: 20px 0; /* Padding pentru partea principală a footer-ului */
+    width: 75%; /* Lățimea întregii pagini */
+    position: relative; /* Asigură poziționarea corectă */
+}
+
+.footer-content {
+    max-width: 1200px; /* Container îngust pentru conținut */
+    margin: 0 auto; /* Centrare automată */
+    display: flex; /* Flexbox pentru aranjarea secțiunilor pe orizontală */
+    justify-content: space-between; /* Spațiere uniformă între secțiuni */
+    padding: 10px 20px; /* Padding pentru interiorul conținutului */
+}
+
+.footer-section {
+    flex: 1; /* Fiecare secțiune ocupă spațiu egal */
+    padding: 10px; /* Spațiu interior */
+}
+
+.footer-section h3 {
+    margin-bottom: 15px; /* Spațiu sub titlu */
+}
+
+.footer-section p {
+    margin-bottom: 10px; /* Spațiu între paragrafe */
+}
+
+.footer-section table {
+    width: 100%; /* Lățimea tabelului */
+}
+
+.footer-section td {
+    padding: 5px; /* Spațiu în celulele tabelului */
+    color: #ddd; /* Culoare deschisă pentru text */
+}
+
+/* Stil pentru copyright */
+.footer-copyright {
+    background-color: #230348; /* Dungă de altă culoare pentru copyright */
+    color: #aaa; /* Text mai deschis */
+    text-align: center; /* Centrare text */
+    padding: 10px 0; /* Padding pentru dunga de copyright */
+    margin-top: 10px; /* Spațiu deasupra */
+}
+
+.footer-copyright p {
+    margin: 0; /* Fără spațiu între marginile textului */
+}
+
+/* Responsivitate pentru ecrane mici */
+@media screen and (max-width: 768px) {
+    .footer-content {
+        flex-direction: column; /* Secțiunile pe verticală la ecrane mici */
+    }
+
+    .footer-section {
+        margin-bottom: 20px; /* Spațiu între secțiuni */
+    }
+}

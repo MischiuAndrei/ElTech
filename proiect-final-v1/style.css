@@ -1,0 +1,443 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url('../proiect-final-v1/images/imagine.jpeg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+
+.navbar {
+    background-color: #3237c8; 
+    display: flex; 
+    justify-content: flex-start; 
+    width: 100%; 
+    padding: 10px 0; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
+}
+
+
+.home-button {
+    background-color: #ffffff; 
+    color: #a076db; 
+    border: none; 
+    padding: 2px 2px; 
+    font-size: 1.2em; 
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+    width: 99%; 
+    image-rendering: auto;
+}
+
+.title-laptopuri {
+    display: inline-block;
+    background-color: rgba(44, 10, 77, 0.5);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-left: 10px;
+    font-size: 1.8em;
+    position: relative;
+    top: -10px;
+}
+.title-camere {
+    display: inline-block;
+    background-color: rgba(0, 0, 255, 0.5); 
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-left: 10px;
+    font-size: 1.8em;
+    position: relative;
+    top: -10px;
+}
+
+/* Efect de hover pentru buton */
+.home-button:hover {
+    background-color: rgba(255, 255, 255, 0.8); 
+}
+
+h1 {
+    margin: 0;
+    padding: 5px; 
+    position: relative;
+    top: 0;
+}
+
+h1 img {
+    width: 500px; 
+    height: auto;
+}
+
+
+
+
+.container {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    gap: 20px; 
+    margin-top: 20px; 
+}
+
+.chenar {
+    color: white;
+    background-color: rgba(57, 69, 203, 0.8); 
+    border: 2px solid #4a0496; 
+    border-radius: 8px; 
+    padding: 20px; 
+    width: 300px; 
+    text-align: center; 
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+}
+
+
+.chenar:hover {
+    background-color: rgba(255, 255, 255, 0.9);
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+
+.locatii {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #3237c8; 
+    color: white; 
+    width: 50%; 
+    padding: 20px 30px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.locatie {
+    background-color: rgba(203, 205, 251, 0.8); 
+    border-radius: 15px;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+    width: calc(45%); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+.locatie:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); 
+}
+
+
+.locatie img {
+    width: 100%;
+    height: auto;
+    max-height: 150px; 
+    border-radius: 15px 15px 0 0; 
+}
+
+
+.locatie h3 {
+    margin: 10px 0;
+    font-size: 1.8em; 
+    color: white;
+}
+
+
+.locatie p {
+    margin: 10px 0;
+    font-size: 1.1em;
+    color: white;
+}
+
+.oferte-laptopuri {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #3237c8; 
+    color: white; 
+    width: 55%; 
+    padding: 20px 30px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between; 
+}
+
+
+.laptop {
+    background-color: rgba(203, 205, 251, 0.8); 
+    border-radius: 15px;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+    width: calc(30%); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+.laptop:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); 
+}
+
+
+.laptop img {
+    width: 100%;
+    height: auto;
+    max-height: 150px; 
+    border-radius: 15px 15px 0 0; 
+}
+
+
+.laptop h3 {
+    margin: 10px 0;
+    font-size: 1.8em; 
+    color: white;
+}
+
+
+.laptop p {
+    margin: 10px 0;
+    font-size: 1.1em;
+    color: white;
+}
+
+.oferte-laptopuri {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #3237c8; 
+    color: white; 
+    width: 55%; 
+    padding: 20px 30px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between; 
+}
+
+
+.laptop {
+    background-color: rgba(203, 205, 251, 0.8); 
+    border-radius: 15px;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+    width: calc(30%); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+.laptop:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); 
+}
+
+
+.laptop img {
+    width: 100%;
+    height: auto;
+    max-height: 150px; 
+    border-radius: 15px 15px 0 0; 
+}
+
+
+.laptop h3 {
+    margin: 10px 0;
+    font-size: 1.8em; 
+    color: white;
+}
+
+
+.laptop p {
+    margin: 10px 0;
+    font-size: 1.1em;
+    color: white;
+}
+
+.title-camere {
+    background-color: rgba(18, 1, 42, 0.5); 
+    color: white; 
+    padding: 10px 20px; 
+    display: inline-block; 
+    border-radius: 10px; 
+    font-size: 2em; 
+    margin-left: 10px; 
+}
+
+
+.oferte-camere-video {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #3237c8; 
+    color: white; 
+    width: 100%; 
+    padding: 20px 30px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between; 
+}
+
+
+.camera {
+    background-color: rgba(203, 205, 251, 0.8); 
+    border-radius: 15px;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+    width: calc(30%); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+.camera:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); 
+}
+
+
+.camera img {
+    width: 100%;
+    height: auto;
+    max-height: 150px; 
+    border-radius: 15px 15px 0 0; 
+}
+
+
+.camera h3 {
+    margin: 10px 0;
+    font-size: 1.8em; 
+    color: rgb(100, 11, 183);
+}
+
+
+.camera p {
+    margin: 10px 0;
+    font-size: 1.1em;
+    color: white;
+}
+
+.title-accesori {
+    background-color: rgba(0, 0, 0, 0.5); 
+    color: white; 
+    padding: 5px 20px; /
+    display: inline-block;
+    border-radius: 10px; 
+    font-size: 2em;
+    margin-left: 10px; 
+}
+
+
+.oferte-accesorii {
+    display: flex;
+    justify-content: space-between; 
+    margin-top: 5px; 
+    padding: 10px;
+}
+
+
+.accesoriu {
+    background-color: rgba(203, 205, 251, 0.8); 
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    width: calc(20%); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+.accesoriu:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); 
+}
+
+
+.accesoriu img {
+    width: 95%;
+    height: auto;
+    max-height: 150px; 
+    border-radius: 15px 15px 0 0; 
+}
+
+
+.accesoriu h3 {
+    margin: 10px 0;
+    font-size: 1.8em; 
+    color: white;
+}
+
+
+.accesoriu p {
+    margin: 10px 0;
+    font-size: 1.1em;
+    color: white;
+}
+
+
+
+footer {
+    background-color:#3287c8; ; 
+    color: white; 
+    padding: 20px 0; 
+    width: 75%; 
+    position: relative; 
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto; 
+    display: flex; 
+    justify-content: space-between; 
+    padding: 10px 20px; 
+}
+
+.footer-section {
+    flex: 1; 
+    padding: 10px; 
+}
+
+.footer-section h3 {
+    margin-bottom: 15px; 
+}
+
+.footer-section p {
+    margin-bottom: 10px; 
+}
+
+.footer-section table {
+    width: 100%; 
+}
+
+.footer-section td {
+    padding: 5px; 
+    color: #ddd; 
+}
+
+
+.footer-copyright {
+    background-color: #230348; 
+    color: #aaa; 
+    text-align: center; 
+    padding: 10px 0; 
+    margin-top: 10px; 
+}
+
+.footer-copyright p {
+    margin: 0; 
+}
+
+
+@media screen and (max-width: 768px) {
+    .footer-content {
+        flex-direction: column; 
+    }
+
+    .footer-section {
+        margin-bottom: 20px; 
+    }
+}
